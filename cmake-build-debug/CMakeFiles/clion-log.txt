@@ -1,0 +1,4 @@
+/var/lib/snapd/snap/clion/16/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/will/Documentos/Problema da mochila"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/will/Documentos/Problema da mochila/cmake-build-debug
