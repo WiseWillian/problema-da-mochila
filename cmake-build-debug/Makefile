@@ -123,32 +123,32 @@ Problema_da_mochila/fast:
 	$(MAKE) -f CMakeFiles/Problema_da_mochila.dir/build.make CMakeFiles/Problema_da_mochila.dir/build
 .PHONY : Problema_da_mochila/fast
 
-main.o: main.c.o
+Guloso/main.o: Guloso/main.c.o
 
-.PHONY : main.o
+.PHONY : Guloso/main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/Problema_da_mochila.dir/build.make CMakeFiles/Problema_da_mochila.dir/main.c.o
-.PHONY : main.c.o
+Guloso/main.c.o:
+	$(MAKE) -f CMakeFiles/Problema_da_mochila.dir/build.make CMakeFiles/Problema_da_mochila.dir/Guloso/main.c.o
+.PHONY : Guloso/main.c.o
 
-main.i: main.c.i
+Guloso/main.i: Guloso/main.c.i
 
-.PHONY : main.i
+.PHONY : Guloso/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/Problema_da_mochila.dir/build.make CMakeFiles/Problema_da_mochila.dir/main.c.i
-.PHONY : main.c.i
+Guloso/main.c.i:
+	$(MAKE) -f CMakeFiles/Problema_da_mochila.dir/build.make CMakeFiles/Problema_da_mochila.dir/Guloso/main.c.i
+.PHONY : Guloso/main.c.i
 
-main.s: main.c.s
+Guloso/main.s: Guloso/main.c.s
 
-.PHONY : main.s
+.PHONY : Guloso/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/Problema_da_mochila.dir/build.make CMakeFiles/Problema_da_mochila.dir/main.c.s
-.PHONY : main.c.s
+Guloso/main.c.s:
+	$(MAKE) -f CMakeFiles/Problema_da_mochila.dir/build.make CMakeFiles/Problema_da_mochila.dir/Guloso/main.c.s
+.PHONY : Guloso/main.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Problema_da_mochila"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Guloso/main.o"
+	@echo "... Guloso/main.i"
+	@echo "... Guloso/main.s"
 .PHONY : help
 
 

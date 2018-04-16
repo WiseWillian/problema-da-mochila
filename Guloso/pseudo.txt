@@ -1,0 +1,54 @@
+estrutura Item:
+	inteiro peso
+	inteiro valor
+fim
+
+estrutura Mochila:
+	inteiro capacidade
+	inteiro peso
+	inteiro valor
+	Item itens[]
+fim
+
+metodo carrega_loja:
+	abre_o_arquivo
+	processa_o_arquivo
+fim
+
+metodo ordena_valor:
+	inteiro i = 0
+	inteiro j = 0
+	Item auxiliar
+	
+	enquanto i < num_itens
+		enquanto j < num_itens
+			se loja[i]->valor < loja[j]->valor
+				auxiliar = loja[i]
+				loja[i] = loja[j]
+				loja[j] = auxiliar
+			fimse
+			j = j + 1
+		fimenquanto
+		i = i + 1
+	fimenquanto
+fim
+ 
+metodo adiciona_mochila:
+fim
+
+metodo principal:
+	Mochila mochila
+	Item loja[]
+	
+	carrega_loja(loja)
+	ordena_loja(loja)
+	
+	inteiro i = 0
+	enquanto W > mochila->peso
+		adiciona_mochila(mochila, loja[i])
+		i = i + 1
+	fim
+	
+	mostra resultados
+fim
+

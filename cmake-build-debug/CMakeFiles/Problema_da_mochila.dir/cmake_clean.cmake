@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Problema_da_mochila.dir/main.c.o"
+  "CMakeFiles/Problema_da_mochila.dir/Guloso/main.c.o"
   "Problema_da_mochila.pdb"
   "Problema_da_mochila"
 )

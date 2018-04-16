@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Problema_da_mochila.dir/main.c.o  -o Problema_da_mochila 
+/usr/bin/cc -g   CMakeFiles/Problema_da_mochila.dir/Guloso/main.c.o  -o Problema_da_mochila 

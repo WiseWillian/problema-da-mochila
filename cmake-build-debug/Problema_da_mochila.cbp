@@ -76,7 +76,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/will/Documentos/Problema da mochila/main.c">
+		<Unit filename="/home/will/Documentos/Problema da mochila/Guloso/main.c">
 			<Option target="Problema_da_mochila"/>
 		</Unit>
 		<Unit filename="/home/will/Documentos/Problema da mochila/CMakeLists.txt">

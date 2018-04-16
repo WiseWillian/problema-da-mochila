@@ -3,4 +3,4 @@ project(Problema_da_mochila C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Problema_da_mochila main.c)
+add_executable(Problema_da_mochila Guloso/main.c)
